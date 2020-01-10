@@ -20,10 +20,11 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
-        >
+        > 
           GitHub
         </a>
       </div>
+      <div></div>
     </div>
   </div>
 </template>
@@ -32,13 +33,14 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
+  layout: 'mtapp',
   components: {
     Logo
   }
 }
 </script>
 
-<style>
+<style lang='scss'>
 .container {
   margin: 0 auto;
   min-height: 100vh;
